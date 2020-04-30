@@ -37,30 +37,30 @@ Primero se cargan los capas 4 capas (Canecas, Contenedores, Puntos críticos y C
 
 Y con la herramienta Project, se ptoyectan todas las capas a MAGNA_Colombia_Bogota, a las capas necesarias.
 
-IMAGEN 2
+![Imagen002](Imagenes/2.PNG "Imagen002")
 
 Después de cargadas las capas, se realiza el buffer de 25 y 50 metros a las capas de canecas y contenedores respectivamente.
 
-IMAGEN 3
-IMAGEN 4
+![Imagen003](Imagenes/3.PNG "Imagen003")
+![Imagen004](Imagenes/4.PNG "Imagen004")
 
 Posterior a esto, mediante la herramienta select by location se seleccionan aquellos puntos criticos que sean afectados por el radio de cobertura de alguna caneca o contenedor de basura y se retiran de la lista de punto criticos. Pasando de tener 747 puntos criticos a 621 puntos criticos 
 
-IMAGEN 5
-IMAGEN 6
+![Imagen005](Imagenes/5.PNG "Imagen005")
+![Imagen006](Imagenes/6.PNG "Imagen006")
 
 Con esta capa con los sitios criticos depurada llamada (Criticos_Depurado) se realizará un buffer de 100 metros y se añadirá un nuevo atributo la capa para distinguir cual punto afecto un cuerpo de agua y cual no. Obteniendo que un total de 133 puntos afectan algún cuerpo de agua.
 
-IMAGEN 7
+![Imagen007](Imagenes/7.PNG "Imagen007")
 
 El nuevo atributo recibe el nombre de AFECTA, teniendo valores en texto de SI si llega a afectar un cuerpo de agua y vacio si no afecta un cuerpo de agua
 
-IMAGEN 8
+![Imagen008](Imagenes/8.PNG "Imagen008")
 
 Con la Herramienta Spatial Join contaremos cuantos puntos estan dentro (completa o parcialmente) dentro de algún polígono de cuerpo de agua.
 
-IMAGEN 9
-IMAGEN 10
+![Imagen009](Imagenes/9.PNG "Imagen009")
+![Imagen010](Imagenes/10.PNG "Imagen010")
 
 Obteniendo que el cuerpo de agua con mayor cantidad de puntos que le afectan es el Río Tunjuelito con 13 puntos.
 
@@ -70,26 +70,26 @@ Para poder ilustrarlos de mejor maner se añadirá un nuevo atributo (VULN) en e
 
 Obteniendo 3 en categoria alta, 11 en media y 37 en baja.
 
-IMAGEN 11
+![Imagen011](Imagenes/11.PNG "Imagen011")
 
 Para distinguir a los cuerpos de agua se le asignará la siguiente simbología.
 
-IMAGEN 12
-IMAGEN 13
+![Imagen012](Imagenes/12.PNG "Imagen012")
+![Imagen013](Imagenes/13.PNG "Imagen013")
 
 Para los puntos criticos, aquellos que si afecten un cuerpo de agua reciibiran un color para diferenciar a los que no.
 
-IMAGEN 14
-IMAGEN 15
+![Imagen014](Imagenes/14.PNG "Imagen014")
+![Imagen015](Imagenes/15.PNG "Imagen015")
 
 ## Cargar documentos a PostGIS
 
 Primero se abre la aplicación de Qgis y se cargan los archivos en .shp usados en el ejercicio
- IMAGEN 16
+ ![Imagen016](Imagenes/16.PNG "Imagen016")
 
 Después de esto se abre el administrador de bases de datos y entramos a la base de datos de la clase
 
-IMAGEN 17
+![Imagen017](Imagenes/17.PNG "Imagen017")
 
 Vamos a la pestaña de Public y cargamos las capas
 
@@ -97,61 +97,61 @@ Vamos a la pestaña de Public y cargamos las capas
 
 Una vez se entra a geoserver con el usuario y clave dados entramos a la sección de capas
 
-IMAGEN 18
+![Imagen018](Imagenes/18.PNG "Imagen018")
 
 Elegimos la opcion de agregar nuevo recurso y seleccionamos la opcion de agregar capa de clase_2020_01:clase_postgis_202001
 
-IMAGEN 19
+![Imagen019](Imagenes/19.PNG "Imagen019")
 
 Una vez ahí, hace clic en publicación en las capas nuestras. En este caso son las capas ma_canecas, ma_contenedores, ma_cuerpos_agua y ma_puntos_criticos.
 
-IMAGEN 20
+![Imagen020](Imagenes/20.PNG "Imagen020")
 
 ## Capa de simbología SLD
 
 A cada una de las capas trabajadas se les da la simbología de la manera elegida
 
-IMAGEN 21
+![Imagen02](Imagenes/21.PNG "Imagen021")
 
 Una vez arreglada la simbología se elige estilo, guardar estilo y Archivo SLD
 
-IMAGEN 22
+![Imagen022](Imagenes/22.PNG "Imagen022")
 
 Una vez guardado el archivo SLD, en Geoserver hacemos clic en Estilos y agregar nuevo estilo
 
-IMAGEN 23
+![Imagen023](Imagenes/23.PNG "Imagen023")
 
 En la nueva ventana asignamos el nombre, seleccionamos que sea SLD y cargamos el archivo guardado antes y validamos el código
 
-IMAGEN 24
+![Imagen024](Imagenes/24.PNG "Imagen024")
 
 Y se la asignamos a la capa correspondiente y le damos aplicar
 
-IMAGEN 25
+![Imagen025](Imagenes/25.PNG "Imagen025")
 
 ## Capa simbologia CSS
 
 Para crear la simbologia CSS hacemos lo mismo que en el caso anterio pero esta vez cambiamos el formato a CSS, elegimos el Style Content y le damos a Generate.
 
-26
-27
+![Imagen026](Imagenes/26.PNG "Imagen026")
+![Imagen027](Imagenes/27.PNG "Imagen027")
 
 ## Capa simbología YSLD
 
 Para crear la simbologia YSLD hacemos lo mismo que en el caso anterio pero esta vez cambiamos el formato a YSLD, elegimos el Style Content y le damos a Generate.
 
-28
-29
+![Imagen028](Imagenes/28.PNG "Imagen028")
+![Imagen029](Imagenes/29.PNG "Imagen029")
 
 ## Grupo de capas
 
 Para poder crear el Layer Group se busca la opción de grupo de capas y seleccionamos nuevo grupo
 
-30
+![Imagen030](Imagenes/30.PNG "Imagen030")
 
 En esta nueva ventana elegimos las capas a agrupar y le damos agrupar
 
-31
+![Imagen031](Imagenes/31.PNG "Imagen031")
 
 Enlace del grupo de capas:
 
