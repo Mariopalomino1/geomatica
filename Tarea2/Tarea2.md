@@ -162,19 +162,4 @@ http://34.83.176.208:18080/geoserver/wms?service=WMS&version=1.1.0&request=GetMa
 
 Enlace video:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://www.loom.com/share/05c47ad6dd1c4c28ad72cda82aaf72a4
