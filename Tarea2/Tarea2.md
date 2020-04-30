@@ -33,7 +33,7 @@
 
 Primero se cargan los capas 4 capas (Canecas, Contenedores, Puntos críticos y CUerpos de agua)
 
-![Imagen001](Imagenes/5.PNG "Imagen001")
+![Imagen001](Imagenes/1.PNG "Imagen001")
 
 Y con la herramienta Project, se ptoyectan todas las capas a MAGNA_Colombia_Bogota, a las capas necesarias.
 
