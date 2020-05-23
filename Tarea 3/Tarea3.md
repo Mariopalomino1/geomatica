@@ -118,6 +118,83 @@ La cantidad de camas, los pacientes y el estado final se calculara con la herram
 ![Imagen013](Imagenes/13.PNG "Imagen013")
 ![Imagen014](Imagenes/14.PNG "Imagen014")
 
+Finalmente exportamos esta tabla para poder realizar los demas puntos.
+
+## 3. Carto
+
+Para usar la herramienta de Carto, lo primero de hacemos es con la tabla exportada desde Acrgis se guarda de nuevo para que quede en formato .xls
+
+Una vez en la pagina de Carto usamos la opción de Data, después en la opción de New Dataset y elegimos la tabla guardada antes.
+
+![Imagen015](Imagenes/15.PNG "Imagen015")
+![Imagen016](Imagenes/16.PNG "Imagen016")
+![Imagen017](Imagenes/17.PNG "Imagen017")
+
+Al darle clic a la opción de Create Map, vemos que se ubican los puntos, ya que la infomación geometrica es obtenidad de las columnas de Latitud y Longitud. 
+
+![Imagen020](Imagenes/20.PNG "Imagen020")
+
+
+Sin embargo buscamos también mostrar la información a nivel de departamentos, por esta razón reorganizamos la tabla para que quede por departamentos, una vez obtenida la tabla la agregamos como una nueva capa y usamos la opción Análisis y en Análisis la opcion de Geocode.
+
+![Imagen018](Imagenes/18.PNG "Imagen018")
+
+Llenamos la información necesaria, pidiendole que haga la georeferenciación usando los nombres de las departamentos listadas en la columna departamento y confirmamos
+
+![Imagen019](Imagenes/19.PNG "Imagen019")
+
+Una vez acabado el proceso, se ve el resultado en la siguiente imagen
+
+![Imagen021](Imagenes/21.PNG "Imagen021")
+
+Como se puede ver no resaltó los departementos de Boyacá, Quindío y a Bogotá, de igual manera al resaltar el departamento de Amazonas, resalto al departamento de Brasil, para corregir estos errores se editará la tabla deirectamente.
+
+En los casos de Boyacá, Quindío y Bogotá se modifico su escritura para que le programa los asociara, pero en el caso del Amazoas, este solo reconocía la parte del Amazonas de Brasil. Por lo tanto no se pudo obtener el resaltdo en esa zona.
+
+Para la respresentación del nivel de saturación de cada ciudad, se representara de forma volumetrica, siendo los casos graves las de mayor tamaño y los casos leves de menor tamaño, diviendo los tamaños en 3 tipos. De igual manera el color también se le asignó por valor, siendo los casos graves de color rojo, los moderados de color amarillo y los leve de verde.
+
+![Imagen022](Imagenes/22.PNG "Imagen022")
+
+Para la represntación de los departamentos, se clasificaron en una rampa de colores dependiendo de la cantidad de pacienes. Para esto se hara la representación por valor, en la columna pacientes. La rampa de colores elegida fue con el sentido de demostrar que todas tendran un potencial de aumentar su cantidad de pacientes, se decidio por dividir en 7 los valores para tener una mayor diferenciación y un nivel de opacidad.
+
+![Imagen023](Imagenes/23.PNG "Imagen023")
+
+Para asiganar la leyenda usamos la opcion legend, en la que asignamos el nombre de cada parte
+
+![Imagen025](Imagenes/25.PNG "Imagen025")
+![Imagen026](Imagenes/26.PNG "Imagen026")
+
+Para añadir los paneles lateras usamos la opción de Widgets.
+En el primer panel es un resumen de la cantidad de paciente que hay en cada ciudad.
+
+![Imagen027](Imagenes/27.PNG "Imagen027")
+
+Para el segundo panel es un resumen de la cantidad de paciente que hay en cada departamento.
+
+![Imagen028](Imagenes/28.PNG "Imagen028")
+
+Dando como resultado:
+
+![Imagen024](Imagenes/24.PNG "Imagen024")
+
+URL: https://mariopalomino1.carto.com/builder/6d661a64-3d8e-4ce0-b0aa-855931b27191/embed
+
+## 4. Geonode
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
