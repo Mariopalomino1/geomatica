@@ -5,7 +5,8 @@
 * Descrpción y enfoque del trabajo: Con el siguiente ejercicio se busca mostrar como se daria manejo a la red hospitalaria del país (en una posible saturación), asumiendo el escenario en que los casos actuales reportados como leves empeorarán y deberan ser atendidos en un centro médico, de igual manera asumimos que aquellos municipios que no cuentan con un adecuado hospital para el manejo de estos casos, remitiran a sus contagiados al centro medico adecaudo más cercano.
 
 * Mockup:
-![Imagen001](Imagenes/1.PNG "Imagen001")
+
+![Imagen001](Imagenes/1.png "Imagen001")
 
 * Fuentes de datos:
   * Capa de municipios de Colombia:
