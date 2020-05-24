@@ -181,8 +181,46 @@ URL: https://mariopalomino1.carto.com/builder/6d661a64-3d8e-4ce0-b0aa-855931b271
 
 ## 4. Geonode
 
+Despues de crear el usuario, se hace clic en la opción de New Map, lo cual nos llevará a una nueva pagina con un visor de mapa vacío. Para agregar las capas hace clic en el boton Capas localizado en la parte superior izquierda.
 
+![Imagen029](Imagenes/29.PNG "Imagen029")
+
+En la nueva ventana de Subir capas, seleccionamos los archivos a subir en el visor, con la nomenclatura adecuado, este caso es ma_casos_ciudad y ma_deptos
+
+![Imagen030](Imagenes/30.PNG "Imagen030")
+![Imagen031](Imagenes/31.PNG "Imagen031")
+
+Para diligenciar los metadatos basicos se le da clic en el boton de Editar Metadatos y se llenan los datos mandatorios.
+
+![Imagen032](Imagenes/32.PNG "Imagen032")
  
+ Una vez terminado el llenado de los metadatos, usamos la herramienta de Editing Tools para editar la forma en que visualizamos la capa
+ 
+![Imagen033](Imagenes/33.PNG "Imagen033")
+![Imagen034](Imagenes/34.PNG "Imagen034")
+
+En esta opcion subiremos el archivo SLD que obtendremos de el software QGIS y lo pegamos en el codigo.
+En este caso dejamos de color rojo aquellos departamentos que si tienen casos reportados por COVID-19 que esten entre moderados y graves y de color verde aquellos departamentos que no tienen casos reportados por COVID-19 que esten entre moderados y graves
+
+![Imagen035](Imagenes/35.PNG "Imagen035")
+![Imagen036](Imagenes/36.PNG "Imagen036")
+
+Para subir la capa de puntos se hace de igual manera a como se hizo con la capa anterior y ponemos guardar
+Dando como resultado el mapa publicado:
+
+![Imagen037](Imagenes/37.PNG "Imagen037")
+
+URL: https://master.demo.geonode.org/maps/3267/edit
+
+## 5. Publicar historias
+
+
+
+
+
+
+
+
 
 
 
