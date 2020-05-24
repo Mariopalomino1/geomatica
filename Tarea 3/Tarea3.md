@@ -218,7 +218,7 @@ URL: https://slides.com/mariopalomino1/analisis-de#/
 
 ## 6. Conclusiones
 
-URL Loom:
+URL Loom: https://www.loom.com/share/27d5025abc09414c8d8ce56ddcf3c817
 
 * Conclusiones:
  * En cuanto al manejo de las herramientas CARTO y Geonode, CARTO permite mayor opciones de versatiidad para crear mapas mas dinámicos, de igual manera, esta herramienta es más amigable de usar y entender.
