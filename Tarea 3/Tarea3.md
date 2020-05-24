@@ -214,26 +214,13 @@ URL: https://master.demo.geonode.org/maps/3267/edit
 
 ## 5. Publicar historias
 
+URL: https://slides.com/mariopalomino1/analisis-de#/
 
+## 6. Conclusiones
 
+URL Loom:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Conclusiones:
+ * En cuanto al manejo de las herramientas CARTO y Geonode, CARTO permite mayor opciones de versatiidad para crear mapas mas dinámicos, de igual manera, esta herramienta es más amigable de usar y entender.
+ 
+ * Este tipo de herramientas de publicación web permiten al lector una mayor comprensión de los temas expuestos, así como al creador del mapa una mayor exposicion del tema, sin caer en el error de la saturación de información e imagenes
